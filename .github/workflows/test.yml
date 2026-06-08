@@ -1,0 +1,31 @@
+name: Pre-Merge Check
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Type-Check
+        run: npm run type-check
+
+      - name: Tests
+        run: npm test
+
+      - name: Build (produktions-Bundle erzeugen)
+        run: npm run build

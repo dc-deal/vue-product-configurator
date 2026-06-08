@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Motor 7,5 kW">
+  <title>Motor 7,5 kW</title>
+  <!-- Motor housing -->
+  <circle cx="100" cy="100" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+  <circle cx="100" cy="100" r="32" fill="currentColor" opacity="0.08"/>
+  <!-- 6 cooling fins -->
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <line x1="100" y1="40" x2="100" y2="50"/>
+    <line x1="152" y1="70" x2="143" y2="76"/>
+    <line x1="152" y1="130" x2="143" y2="124"/>
+    <line x1="100" y1="160" x2="100" y2="150"/>
+    <line x1="48" y1="130" x2="57" y2="124"/>
+    <line x1="48" y1="70" x2="57" y2="76"/>
+  </g>
+  <!-- Shaft -->
+  <circle cx="100" cy="100" r="6" fill="currentColor"/>
+  <!-- Label -->
+  <text x="100" y="190" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="currentColor">7,5 kW</text>
+</svg>
