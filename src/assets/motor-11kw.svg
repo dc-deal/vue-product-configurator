@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Motor 11 kW">
+  <title>Motor 11 kW</title>
+  <!-- Motor housing -->
+  <circle cx="100" cy="100" r="55" fill="none" stroke="currentColor" stroke-width="3"/>
+  <circle cx="100" cy="100" r="40" fill="currentColor" opacity="0.1"/>
+  <!-- 8 cooling fins -->
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <line x1="100" y1="32" x2="100" y2="45"/>
+    <line x1="148" y1="52" x2="139" y2="61"/>
+    <line x1="168" y1="100" x2="155" y2="100"/>
+    <line x1="148" y1="148" x2="139" y2="139"/>
+    <line x1="100" y1="168" x2="100" y2="155"/>
+    <line x1="52" y1="148" x2="61" y2="139"/>
+    <line x1="32" y1="100" x2="45" y2="100"/>
+    <line x1="52" y1="52" x2="61" y2="61"/>
+  </g>
+  <!-- Shaft -->
+  <circle cx="100" cy="100" r="7" fill="currentColor"/>
+  <!-- Label -->
+  <text x="100" y="190" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="currentColor">11 kW</text>
+</svg>

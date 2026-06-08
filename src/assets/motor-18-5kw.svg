@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Motor 18,5 kW">
+  <title>Motor 18,5 kW</title>
+  <!-- Outer housing ring -->
+  <circle cx="100" cy="100" r="68" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <!-- Inner motor housing -->
+  <circle cx="100" cy="100" r="55" fill="none" stroke="currentColor" stroke-width="3"/>
+  <circle cx="100" cy="100" r="42" fill="currentColor" opacity="0.12"/>
+  <!-- 12 cooling fins -->
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <line x1="100" y1="22" x2="100" y2="35"/>
+    <line x1="139" y1="32" x2="133" y2="44"/>
+    <line x1="168" y1="61" x2="156" y2="67"/>
+    <line x1="178" y1="100" x2="165" y2="100"/>
+    <line x1="168" y1="139" x2="156" y2="133"/>
+    <line x1="139" y1="168" x2="133" y2="156"/>
+    <line x1="100" y1="178" x2="100" y2="165"/>
+    <line x1="61" y1="168" x2="67" y2="156"/>
+    <line x1="32" y1="139" x2="44" y2="133"/>
+    <line x1="22" y1="100" x2="35" y2="100"/>
+    <line x1="32" y1="61" x2="44" y2="67"/>
+    <line x1="61" y1="32" x2="67" y2="44"/>
+  </g>
+  <!-- Shaft -->
+  <circle cx="100" cy="100" r="8" fill="currentColor"/>
+  <!-- Label -->
+  <text x="100" y="195" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="currentColor">18,5 kW</text>
+</svg>
